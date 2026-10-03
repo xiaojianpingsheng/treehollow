@@ -72,6 +72,6 @@ treehollow/
 
 ## 许可证与免责声明
 
-本项目采用 [MIT License](LICENSE)。
+本项目采用 [MIT License](LICENSE.txt)。
 
 > 免责声明：树洞是一个测试版工具，不提供医疗诊断、治疗或心理干预。使用者应自行承担接入与运营责任。

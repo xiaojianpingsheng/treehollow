@@ -7,6 +7,32 @@
 > A warm, non-judgmental AI listener — a reusable Claude Skill with built-in crisis detection & escalation.
 > 一个温暖、不评判的 AI 倾听者 Skill——自带危机识别与转介。
 
+## English · Overview
+
+**TreeHole** is a reusable Claude Skill that turns any AI app into a warm, non-judgmental listener — with built-in crisis detection and escalation.
+
+**Who it's for:** developers building emotional-companion, mental-health, education, or social apps.
+
+**What it gives you:**
+
+- Empathetic listening grounded in Rogers' *unconditional positive regard* and Pennebaker's *expressive writing* — not a generic chatbot prompt.
+- Crisis detection & escalation for self-harm / suicide / abuse / bullying, graded red / yellow / green — **without diagnosis or treatment**.
+- Tech-agnostic & configurable: no hard-coded hotlines, age thresholds, laws, or table/framework names — just fill in your own country's parameters.
+- Bilingual (English/Chinese) with full guardrails: no PII collection, no third-party disclosure.
+
+**Install:**
+
+- One-click via [SkillHub](https://skillhub.cn/skills/treehollow), or
+- `git clone https://github.com/xiaojianpingsheng/treehollow.git` and drop the folder into your AI tool's skills directory.
+
+**Quick start:** fill the `{placeholders}` in `references/` with your local hotlines / age thresholds / laws, wire up the 5 tool contracts in `SKILL.md`, and you're done. Full integration notes: [`DEVELOPER.md`](DEVELOPER.md).
+
+**Live demo:** https://fjtk3njxz2vu.meoo.pub
+
+> 完整中文文档见下方 ↓ · Full documentation in Chinese below.
+
+---
+
 **「树洞」是一个可复用的 Claude Skill**：把「一个会好好听你说话的 AI 倾听者」打包好（提示词 + 5 个工具契约 + 危机护栏），让你（开发者）拿进自己的 App，当后台的情绪倾听者。
 
 - 🎯 **适合谁**：正在做情感陪伴 / 心理 / 教育 / 社交类 App 的独立开发者和小团队。

@@ -1,13 +1,40 @@
 # 树洞 · TreeHole
 
-> An open-source, reusable AI companion for empathetic listening — with built-in crisis detection and escalation.
-> 一个开源的、可复用的 AI 倾听者 Skill——自带危机识别与转介。
+[![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE.txt)
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://skillhub.cn/skills/treehollow)
+[![SkillHub](https://img.shields.io/badge/SkillHub-%E6%A0%91%E6%B4%9E-orange.svg)](https://skillhub.cn/skills/treehollow)
 
-「树洞」是一个**「员工」型可复用 Claude Skill**：把「一个会好好听你说话的 AI 倾听者」打包好（提示词 + 5 个工具契约 + 危机护栏），让你（开发者）拿进自己的 App，当后台的情绪倾听者。
+> A warm, non-judgmental AI listener — a reusable Claude Skill with built-in crisis detection & escalation.
+> 一个温暖、不评判的 AI 倾听者 Skill——自带危机识别与转介。
 
-**适合谁**：正在做情感陪伴 / 心理 / 教育 / 社交类 App 的独立开发者和小团队。
+**「树洞」是一个可复用的 Claude Skill**：把「一个会好好听你说话的 AI 倾听者」打包好（提示词 + 5 个工具契约 + 危机护栏），让你（开发者）拿进自己的 App，当后台的情绪倾听者。
+
+- 🎯 **适合谁**：正在做情感陪伴 / 心理 / 教育 / 社交类 App 的独立开发者和小团队。
+- 🧭 **什么是 Skill**：Skill 是一份「给 AI 的角色说明书 + 规则 + 能力清单」，放进 AI 编程工具的 skills 目录即可被识别加载，不改你的技术栈。
 
 ---
+
+## 在线演示
+
+想先看看「树洞」真实聊起来是什么样？打开这个演示页（测试版）体验：
+
+**🔗 https://fjtk3njxz2vu.meoo.pub**
+
+> 这是树洞的一个真实使用界面；你要接入的是本仓库里的 Skill 本体（`SKILL.md` + `references/`），不是这个页面。
+
+## 安装
+
+**方式一 · SkillHub 一键安装（推荐）**
+
+在 [SkillHub](https://skillhub.cn/skills/treehollow) 上搜索「树洞」或「TreeHole」，一键安装到你正在用的 AI 编程工具里。
+
+**方式二 · 手动 / git clone**
+
+```bash
+git clone https://github.com/xiaojianpingsheng/treehollow.git
+```
+
+然后把整个 `treehollow/` 文件夹放进你所用 AI 编程工具的 skills 目录即可。
 
 ## 它解决什么问题
 
@@ -18,12 +45,6 @@
 3. **写死就难复用**——号码、年龄线、法规各国不同，写死了就没法给别人用。
 
 树洞把这三件事做成**现成的、专业的、可配置的**：拿来就能用，接入时填你自己国家的参数即可。
-
-## 在线演示
-
-想先看看「树洞」真实聊起来是什么样？打开这个演示页（测试版）体验：**https://fjtk3njxz2vu.meoo.pub**
-
-> 这是树洞的一个真实使用界面；你要接入的是本仓库里的 Skill 本体（`SKILL.md` + `references/`），不是这个页面。
 
 ## 核心特性
 
@@ -63,6 +84,14 @@ treehollow/
 - **危机优先**：一旦出现危机信号，转介规则高于一切，绝不自行判断「是不是开玩笑 / 无风险」。
 - **匿名与隐私**：不收集可识别身份、不向第三方透露倾诉内容（危机转介除外）。
 - **合规内容非法律意见**：年龄分层、监护授权、危机处置是产品设计建议，正式商用前请由专业律师审核（详见 [`DEVELOPER.md`](DEVELOPER.md) 第 7 节）。
+
+## Roadmap
+
+- [x] v1.0.0 核心倾听能力 + 危机识别与转介
+- [ ] 更多语言的转介资源模板
+- [ ] 更多场景的话术库（校园 / 家庭 / 职场）
+
+> 有想加的场景或语言？欢迎提 issue 告诉我们。
 
 ## 反馈与贡献
 
